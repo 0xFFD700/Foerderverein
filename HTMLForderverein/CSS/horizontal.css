@@ -1,0 +1,253 @@
+﻿/********************Allgemeine Formatierungen********************/
+* {
+	margin:0;
+	padding:0;
+	font-family:Arial,sans-serif;
+	font-weight:normal;}
+html {
+	height:100%;
+	overflow-y:hidden;
+	overflow-x:hidden;
+	text-align: center;
+	color: white;
+	}	
+body {
+	background-image:url("../images/background.jpg");
+	background-repeat: no-repeat;
+	}	
+a {
+	text-decoration: none;
+    }	
+#vorstand, #projekte, #sponsoren, #mitgliedschaften, #kontakt, #startseite,#impressum{
+	width:14.2857%;																
+	float:left;
+	height:700px;
+	background-color: rgba(166, 166, 166, 0.4);
+	padding-top: 10px;
+	}	
+#vorstand-wrapper,#projekt-wrapper,#mitgliedschaften-wrapper,#sponsoren-wrapper,#kontakt-wrapper,#impressum-wrapper{
+	margin: 0px auto;																	
+	}	
+#gesamt,#anschrift,#tafel,#berufsschule,#email,img#berufsschule,#Mitgliedschaft, #Spenden,#Downloads, #projektbeschreibung, #projekt,#zusatz-impressum,#anschrift-impressum,#haftungsausschluss{
+	-webkit-box-shadow: 0.2em 0.2em 0.2em 0.2em black;				
+	box-shadow: 0.2em 0.2em 0.2em 0.2em black;
+	background-color:rgba(70,177,255,0.7);
+	border: solid 0.3em;
+	font-size: 0.7em;
+	border-color: white;}	
+.rund{
+	border-radius: 1em 1em 1em 1em;
+	}
+.navigationsleiste:visited, #zurueck:visited{
+	color: white;
+	}
+#ueberschrift{
+	font-weight: bold;
+	font-size: 1.1em;
+	}
+/***********************Horizontal**************************/
+#vert {
+	float:left;
+	width:700%;
+	height:100px;
+}
+* html ul#nav {
+	position:absolute;
+	left:expression(0+((e=document.documentElement.scrollLeft)?e:document.body.scrollLeft)+'px');
+}
+#content{
+	width:700%;
+	overflow:hidden;
+	clear:both;
+	}
+h2{font-weight: bold;}
+/***********************Navigation************************/		
+ul#nav {
+	position:fixed;
+	width:90%;
+	line-height:40px;
+	height:80px;
+	background-color: #888;
+	overflow:hidden;
+	opacity:0.6;
+	-webkit-box-shadow: 5px 5px 5px 5px #000000;
+	box-shadow: 5px 5px 5px 5px #000000;      
+    }		
+.border-fade {
+	padding:3px 20px;
+	height:auto;
+	width:90%;
+	display: inline;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	transition-property: box-shadow;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: inset 0 0 0 4px rgba(0,0,0,0), 0 0 1px rgba(0, 0, 0, 0);
+}
+.border-fade:hover, .border-fade:focus, .border-fade:active {
+  box-shadow: inset 0 0 0 2px #666666, 0 0 1px rgba(0, 0, 255, 0.5);
+  background-color: rgba(100,100,100,0.3);
+}
+a#navigationsleiste{
+	color: white;
+	}
+hr{
+    border:none;
+    height: 3px;
+    background-color: blue;
+    margin-bottom:5px;
+    width: 90%;
+}
+hr.klein{
+    width: 80%;
+}
+/*************************Startseite***********************/
+#willkommen{
+	margin-top: 150px;
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+#logo{
+	margin: 0px auto;
+	width:20%;
+	height: auto;
+	}
+/*************************Vorstand*************************/
+#vorstand-wrapper{
+	width: 65%;
+	text-align: left;
+	}
+#gesamt{
+	width:56%;
+	float:left;
+	}	
+#mitglieder{
+	width:35%;
+	margin-left: 60%;
+	}
+/**************************Projekte*********** ************/
+#projekt-wrapper{
+	width:75%;
+	}
+#projekt{
+	float:left;
+	width:60%;
+	}
+#projektbeschreibung{
+	padding-top: 10px;
+	margin-left: 62%;
+	width: 38%;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 1em;
+	height: auto;
+	}
+/**************************Sponsoren**********************/	
+#sponsoren-wrapper{
+	width:30%;
+	}		
+/**********************Mitgliedschaften*******************/	
+#mitgliedschaften-wrapper{
+	text-align: left;
+	width:65%;
+	}
+#Mitgliedschaft{
+	float:left;
+	width: 72%;
+	height: 190px;
+	padding: 10px 0px 10px 10px;
+	}
+#Spenden{
+	margin-left: 75%;
+	height: 170px;
+	padding: 40px 0px 0px 10px;
+	}
+#Downloads{
+	margin-top: 1%;
+	height: 200px;
+	padding: 10px 0px 10px 10px;
+	}
+.liste{
+	padding-left: 20px;
+	}	
+/******************************Kontakt********************/
+#kontakt-wrapper{
+	width: 65%;
+	max-width: 65%;
+	}
+#anschrift,#email,img#berufsschule,img#tafel{
+	max-width: 100%;
+	}
+#anschrift{
+	margin: 0px auto;
+	width:493px;
+	height:110px;
+	}
+#email{
+	margin: 0px auto;
+	width:513px;
+	height:100px;
+	margin-top: 0.5%;
+	}
+img#berufsschule{
+	height:auto;
+	margin-top: 1%;
+	}		
+img#tafel{
+	height:auto;
+	}
+#rechts{
+	width:48.5%;
+	margin-left:51.5%;
+	height:500px;
+	}
+#links{
+	width:48.5%;
+	float:left;
+	height:500px;
+	}	
+/*****************************Impressum**********************/
+#impressum-wrapper{
+	width: 70%;
+	text-align:left;
+	font-size: 1.4em;
+	}
+#zusatz-impressum{
+	padding: 5px 0px 0px 5px;
+	float:left;
+	height: 300px;
+	width:69%;
+	}
+#anschrift-impressum{
+	padding: 5px 0px 0px 5px;
+	margin-left:71%;
+	height: 300px;
+	width:29%;
+	text-align: justify;
+	}
+#haftungsausschluss{
+	padding: 5px;
+	margin-top: 1%;
+	width: 100%;
+	text-align: justify;
+	height:150px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	}
+/***************************Footer**************************/	
+#copyright{
+	position:fixed;
+	bottom: 10px;
+	right: 10px;
+	font-size: 0.75em;
+	text-align: right;
+	color:white;}		
+#zurueck{
+	position:fixed;
+	bottom: 10px;
+	font-size: 0.75em;
+	left: 10px;
+	color:white;}
+a#white:visited{color:white;}	
